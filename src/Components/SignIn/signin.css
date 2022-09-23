@@ -1,0 +1,51 @@
+.signinContainer {
+  width: 800px;
+  height: 400px;
+  background-color: #feffbe;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.signleft {
+  width: 100%;
+  height: 100%;
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signleft > img {
+  width: 200px;
+  height: 200px;
+}
+
+.signleft > p {
+  font-weight: bold;
+}
+
+.signright {
+  width: 100%;
+  height: 100%;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  /* background-color: yellow; */
+}
+
+.signright > h1 {
+  font-weight: lighter;
+}

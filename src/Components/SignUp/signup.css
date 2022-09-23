@@ -1,0 +1,30 @@
+.signupNav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
+}
+
+.signupNav > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.signupNav > p {
+  margin-top: 20px;
+}
+
+.signupform {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.btnSignUp {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
